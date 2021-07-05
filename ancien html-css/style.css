@@ -1,0 +1,439 @@
+/* css presenation debut */
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: #CEA068;
+    margin: 0px;
+}
+
+
+.containerPres {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#presentation {
+    font-family: 'Bellota Text', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.imagePres {
+    margin-top: 100px;
+}
+
+
+/* css presenation fin */
+/************************SIZEIMG********************/
+.size {
+    width: 600px;
+    height: 350px;
+
+    display: flex;
+    align-items: center
+}
+
+.size_pizza {
+    width: 700px;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.size_antipasti {
+    width: 600px;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+/*****************************************/
+.eat_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eat_display p {
+    margin: 0px;
+}
+
+.eat_display h2 {
+    text-align: center;
+
+    width: 40%;
+
+    font-family: 'Italianno';
+    font-size: xx-large;
+    color: #CEA068;
+
+    margin: 0px;
+}
+
+.align_size {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+/******************LISTE*******************/
+
+.eat_display ul {
+    list-style: none;
+    font-size: medium;
+}
+
+.eat_display li {
+    padding: 0.3em 0;
+}
+
+/*************************************/
+
+
+/******************SEPARATION*******************/
+.categorySeparation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separation {
+    height: 10vh;
+}
+
+.separationAll {
+    height: 10vh;
+}
+
+.productName {
+    color: #CEA068;
+    font-size: xx-large;
+
+}
+
+/*************************************/
+
+/******************début navigation*******************/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0px;
+}
+
+.outer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    background: fixed;
+    position: fixed;
+    transition: all 0.3s ease-out;
+    z-index: 3;
+    background-color: white;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+nav ul {
+    margin-right: 20px;
+}
+
+#logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.anim-nav {
+    background: rgb(255, 255, 255);
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.liste {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    color: #CEA068;
+    margin: 5px 10px;
+    font-size: 25px;
+}
+
+/*****************fin navigation********************/
+
+/* début du css nous contacter  */
+#contact {
+    color: #CEA068;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+
+}
+
+iframe {
+    width: 100%;
+}
+
+.coord {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.coord1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coord1 li {
+    list-style: none;
+}
+
+.coord p {
+    color: #534F48;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.schedule {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.schedule p {
+    color: #534F48;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* fin du css de nous contacter */
+
+/* début css formulaire */
+
+
+#formulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.sendButton {
+    background-color: #CEA068;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 24px;
+    margin-top: 5px;
+    cursor: pointer;
+
+
+}
+
+.sendButton:hover {
+    background-color: #c5873a;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px 24px;
+    margin-top: 5px;
+    cursor: pointer;
+
+
+}
+
+.sendButton:hover {
+    border-radius: 5px;
+
+}
+
+.productName {
+    color: #CEA068;
+    font-size: xx-large;
+
+}
+
+.categorySeparation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barre1 {
+    margin-left: 125px;
+}
+
+.barre2 {
+    margin-left: 105px;
+}
+
+.barre3 {
+    margin-left: 69px;
+}
+
+.barre4 {
+    margin-left: 16px;
+}
+
+.barre5 {
+    margin-left: 130px;
+}
+
+.barre6 {
+    margin-left: 120px;
+}
+
+
+.barre7 {
+    margin-left: 60px;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+input {
+    width: 400px;
+}
+
+input:last-child {
+    width: 100px;
+    margin-left: 488px;
+}
+
+/* fin css formulaire */
+
+
+.footerPosition {
+    background-color: #CEA068;
+    height: 18vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: dashed;
+
+    color: whitesmoke;
+}
+
+.footerPosition a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerPosition a:hover {
+    background-color: #d6b184;
+    text-decoration: underline 1px;
+}
+
+#galery h2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.categorysecond{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column {
+	margin: 15px 25px 0 25px;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 350px;
+	margin: 0 0 0 35px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.zoom div {
+	width: 350px;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.zoom div img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.zoom div:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.categorysecond img{
+    height: 310px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
