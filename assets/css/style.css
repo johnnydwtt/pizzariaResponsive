@@ -117,3 +117,27 @@ iframe {
 
 }
 /* fin galery */
+/* Début plat */
+.plat ul {
+    font-family: 'Arial, Helvetica', sans-serif;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.plat span {
+    text-decoration: underline;
+}
+
+.plat h2 {
+    font-family: 'Arial, Helvetica', sans-serif;
+    color: #CEA068;
+    font-size: 70px;
+}
+
+.plat h3 {
+    font-family: 'Italianno', cursive;
+    color: #CEA068;
+    font-size: 100px;
+}
+
+/* Fin plat */
