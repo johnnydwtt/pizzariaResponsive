@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,63 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
     <title>Pizzaria Responsive</title>
 </head>
+
 <body>
-    
+    <!--DEBUT DU FORMULAIRE DE CONTACT-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <section id="form">
+                    <h2 class="productName">Réservation</h2>
+                    <div id="formulaire">
+                        <form class="container" action="mailto:email@example.com">
+                            <div class="row">
+                                <label for="lname" class="text-lg-end col-12 col-lg-6">Nom *:</label>
+                                <input class="barre1 w-auto col-12 col-lg-6" type="text" id="lname" name="lname"
+                                    required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="fname" class="text-lg-end col-12 col-lg-6">Prénom *:</label>
+                                <input class="barre2 w-auto col-12 col-lg-6" type="text" id="fname" name="fname"
+                                    required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="email" class="text-lg-end col-12 col-lg-6">Adresse mail *:</label>
+                                <input class="barre3 w-auto col-12 col-lg-6" type="text" id="email" name="email"
+                                    required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="phone" class="text-lg-end col-12 col-lg-6">N° de téléphone *:</label>
+                                <input class="barre4 w-auto col-12 col-lg-6" type="text" id="phone" name="phone"
+                                    required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="date" class="text-lg-end col-12 col-lg-6">Date *:</label>
+                                <input id="date" class="barre5 w-auto col-12 col-lg-6" type="date" name="date" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="hour" class="text-lg-end col-12 col-lg-6">Heure *:</label>
+                                <input id="hour" class="barre6 w-auto col-12 col-lg-6" type="time" name="mytime" required><br>
+                            </div>
+                            <div class="margin"></div>
+                            <div class="row">
+                                <label for="message" class="text-lg-end col-12 col-lg-6">Votre message *:</label>
+                                <textarea class="barre7 w-auto" rows="4" cols="54" id="message"
+                                    name="message"></textarea><br>
+                                <input type="submit" value="Envoyer" class="sendButton col-12 col-lg-12 mt-2">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!--FIN DU FORMULAIRE DE CONTACT-->
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+#formulaire {
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sendButton {
+    background-color: #CEA068;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.productName {
+    color: #CEA068;
+    font-size: xx-large;
+    text-align: center;
+}
