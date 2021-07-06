@@ -183,3 +183,39 @@ h2{
     font-size: xx-large;
     text-align: center;
 }
+
+h1 {
+    font-family: 'Italianno', "cursive";
+    font-size: 50px;
+    color: #CEA068;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.containerPres {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#presentation {
+    font-family: 'Bellota Text', "cursive";
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.imagePres {
+    margin-top: 0px;
+}
+
