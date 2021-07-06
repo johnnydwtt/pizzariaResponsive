@@ -1,14 +1,4 @@
 /* début du css nous contacter  */
-#contact {
-    color: #CEA068;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 25px;
-    font-size: 30px;
-
-}
-
 iframe {
     width: 100%;
 }
@@ -155,4 +145,41 @@ h2{
 .textstyle{
     font-size: x-large;
     color: #CEA068;
+}
+
+#formulaire {
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sendButton {
+    background-color: #CEA068;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+
+}
+
+.sendButton:hover {
+    background-color: #c5873a;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.productName {
+    color: #CEA068;
+    font-size: xx-large;
+    text-align: center;
 }
