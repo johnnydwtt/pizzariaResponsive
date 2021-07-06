@@ -1,3 +1,108 @@
-div {
-    background-image: url(assets\img\fondtexteCopie.jpg);
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 25px;
+    color: #CEA068;
+    margin: 0px;
+}
+
+
+.containerPres {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+#presentation {
+    font-family: 'Bellota Text', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.imagePres {
+    margin-top: 0px;
+}
+
+@media screen and (min-width : 1220px) {
+    h1 {
+        font-family: 'Italianno', cursive;
+        font-size: 25px;
+        color: #CEA068;
+        margin: 0px;
+    }
+    
+    
+    .containerPres {
+        position: relative;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    #presentation {
+        font-family: 'Bellota Text', cursive;
+        color: white;
+        font-size: 25px;
+        text-align: justify;
+    
+    }
+    
+    .centeredText {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .imagePres {
+        margin-top: 0px;
+    }
+      
+    
+
+    
+}
+@media screen and (max-width : 1220px) {
+    h1 {
+        font-family: 'Italianno', cursive;
+        font-size: 25px;
+        color: #CEA068;
+        margin: 0px;
+    }
+    
+    
+    .containerPres {
+        position: relative;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    #presentation1 {
+        font-family: 'Bellota Text', cursive;      
+        font-size: 25px;
+        text-align: justify;
+    
+    }
+    
+    .centeredText {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .imagePres {
+        margin-top: 0px;
+    }
+    
 }
