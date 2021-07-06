@@ -144,4 +144,10 @@ iframe {
     height: 10vh;
 }
 
+h2{
+    font-family: 'Arial, Helvetica', sans-serif;
+    color: #CEA068;
+    font-size: 50px;
+}
+
 /* Fin plat */
