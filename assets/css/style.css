@@ -147,7 +147,12 @@ iframe {
 h2{
     font-family: 'Arial, Helvetica', sans-serif;
     color: #CEA068;
-    font-size: 50px;
+    font-size: xx-large;
 }
 
 /* Fin plat */
+
+.textstyle{
+    font-size: x-large;
+    color: #CEA068;
+}
