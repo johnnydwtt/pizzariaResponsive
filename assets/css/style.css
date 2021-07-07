@@ -223,3 +223,31 @@ h1 {
 
         margin-top: 200px;
 }
+
+    .footerPosition {
+        background-color: #CEA068;
+        height: 18vh;
+        width: 100%;
+    
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: dashed;
+    
+        color: whitesmoke;
+    }
+    
+    .footerPosition a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .footerPosition a:hover {
+        background-color: #d6b184;
+        text-decoration: underline 1px;
+    }
+
+.fontsizeA{
+    font-size: 16px;
+}
